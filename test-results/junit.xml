@@ -1,0 +1,632 @@
+<testsuites id="" name="" tests="31" failures="31" skipped="0" errors="0" time="6.166799000000001">
+<testsuite name="critical-user-journeys.spec.ts" timestamp="2025-08-26T01:45:37.308Z" hostname="chromium" tests="31" failures="31" skipped="0" time="0.235" errors="0">
+<testcase name="Critical User Journeys - Wine Pokédex › First Time User Experience › should display welcome experience for empty collection" classname="critical-user-journeys.spec.ts" time="0.004">
+<failure message="critical-user-journeys.spec.ts:19:9 should display welcome experience for empty collection" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:19:9 › Critical User Journeys - Wine Pokédex › First Time User Experience › should display welcome experience for empty collection 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › First Time User Experience › should open scan modal when user clicks scan button" classname="critical-user-journeys.spec.ts" time="0.006">
+<failure message="critical-user-journeys.spec.ts:30:9 should open scan modal when user clicks scan button" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:30:9 › Critical User Journeys - Wine Pokédex › First Time User Experience › should open scan modal when user clicks scan button 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › First Time User Experience › should close scan modal when user clicks close" classname="critical-user-journeys.spec.ts" time="0.004">
+<failure message="critical-user-journeys.spec.ts:41:9 should close scan modal when user clicks close" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:41:9 › Critical User Journeys - Wine Pokédex › First Time User Experience › should close scan modal when user clicks close 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Wine Collection Viewing › should display wine collection with sample data" classname="critical-user-journeys.spec.ts" time="0.005">
+<failure message="critical-user-journeys.spec.ts:54:9 should display wine collection with sample data" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:54:9 › Critical User Journeys - Wine Pokédex › Wine Collection Viewing › should display wine collection with sample data 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Wine Collection Viewing › should display wine details correctly on cards" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:66:9 should display wine details correctly on cards" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:66:9 › Critical User Journeys - Wine Pokédex › Wine Collection Viewing › should display wine details correctly on cards 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Wine Collection Viewing › should handle different rarity appearances correctly" classname="critical-user-journeys.spec.ts" time="0.006">
+<failure message="critical-user-journeys.spec.ts:81:9 should handle different rarity appearances correctly" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:81:9 › Critical User Journeys - Wine Pokédex › Wine Collection Viewing › should handle different rarity appearances correctly 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › View Mode Switching › should switch between different view modes" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:104:9 should switch between different view modes" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:104:9 › Critical User Journeys - Wine Pokédex › View Mode Switching › should switch between different view modes 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+       98 |   test.describe('View Mode Switching', () => {
+       99 |     test.beforeEach(async () => {
+    > 100 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      101 |       await helpers.navigateToApp()
+      102 |     })
+      103 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:100:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › View Mode Switching › should maintain wine data across view changes" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:118:9 should maintain wine data across view changes" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:118:9 › Critical User Journeys - Wine Pokédex › View Mode Switching › should maintain wine data across view changes 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+       98 |   test.describe('View Mode Switching', () => {
+       99 |     test.beforeEach(async () => {
+    > 100 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      101 |       await helpers.navigateToApp()
+      102 |     })
+      103 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:100:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › View Mode Switching › should flip trading cards when clicked" classname="critical-user-journeys.spec.ts" time="0.097">
+<failure message="critical-user-journeys.spec.ts:135:9 should flip trading cards when clicked" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:135:9 › Critical User Journeys - Wine Pokédex › View Mode Switching › should flip trading cards when clicked 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+       98 |   test.describe('View Mode Switching', () => {
+       99 |     test.beforeEach(async () => {
+    > 100 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      101 |       await helpers.navigateToApp()
+      102 |     })
+      103 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:100:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by &quot;Château&quot;" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:160:13 should search wines by &quot;Château&quot;" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:160:13 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by "Château" 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by &quot;France&quot;" classname="critical-user-journeys.spec.ts" time="0.004">
+<failure message="critical-user-journeys.spec.ts:160:13 should search wines by &quot;France&quot;" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:160:13 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by "France" 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by &quot;Cabernet&quot;" classname="critical-user-journeys.spec.ts" time="0.008">
+<failure message="critical-user-journeys.spec.ts:160:13 should search wines by &quot;Cabernet&quot;" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:160:13 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by "Cabernet" 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by &quot;2015&quot;" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:160:13 should search wines by &quot;2015&quot;" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:160:13 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by "2015" 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by &quot;nonexistent&quot;" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:160:13 should search wines by &quot;nonexistent&quot;" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:160:13 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should search wines by "nonexistent" 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should clear search results when search is cleared" classname="critical-user-journeys.spec.ts" time="0.005">
+<failure message="critical-user-journeys.spec.ts:176:11 should clear search results when search is cleared" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:176:11 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Search Functionality › should clear search results when search is cleared 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Filter Functionality › should filter wines by type" classname="critical-user-journeys.spec.ts" time="0.007">
+<failure message="critical-user-journeys.spec.ts:190:11 should filter wines by type" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:190:11 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Filter Functionality › should filter wines by type 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Filter Functionality › should filter wines by rarity" classname="critical-user-journeys.spec.ts" time="0.006">
+<failure message="critical-user-journeys.spec.ts:201:11 should filter wines by rarity" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:201:11 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Filter Functionality › should filter wines by rarity 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Filter Functionality › should combine search and filter" classname="critical-user-journeys.spec.ts" time="0.012">
+<failure message="critical-user-journeys.spec.ts:209:11 should combine search and filter" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:209:11 › Critical User Journeys - Wine Pokédex › Search and Filter Functionality › Filter Functionality › should combine search and filter 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    TypeError: Cannot read properties of undefined (reading 'seedWineData')
+
+      152 |   test.describe('Search and Filter Functionality', () => {
+      153 |     test.beforeEach(async () => {
+    > 154 |       await helpers.seedWineData(Object.values(mockWineData))
+          |                     ^
+      155 |       await helpers.navigateToApp()
+      156 |     })
+      157 |
+        at /Users/emily-gryfyn/Documents/winetextook/Claudable/apps/wine-pokedex/e2e/critical-user-journeys.spec.ts:154:21
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Collection Statistics › should update statistics when collection changes" classname="critical-user-journeys.spec.ts" time="0.004">
+<failure message="critical-user-journeys.spec.ts:225:9 should update statistics when collection changes" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:225:9 › Critical User Journeys - Wine Pokédex › Collection Statistics › should update statistics when collection changes 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Collection Statistics › should display accurate average rating" classname="critical-user-journeys.spec.ts" time="0.012">
+<failure message="critical-user-journeys.spec.ts:247:9 should display accurate average rating" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:247:9 › Critical User Journeys - Wine Pokédex › Collection Statistics › should display accurate average rating 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Performance and Loading › should load initial page quickly" classname="critical-user-journeys.spec.ts" time="0.008">
+<failure message="critical-user-journeys.spec.ts:263:9 should load initial page quickly" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:263:9 › Critical User Journeys - Wine Pokédex › Performance and Loading › should load initial page quickly 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Performance and Loading › should handle large wine collections efficiently" classname="critical-user-journeys.spec.ts" time="0.004">
+<failure message="critical-user-journeys.spec.ts:273:9 should handle large wine collections efficiently" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:273:9 › Critical User Journeys - Wine Pokédex › Performance and Loading › should handle large wine collections efficiently 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Performance and Loading › should perform search quickly on large collections" classname="critical-user-journeys.spec.ts" time="0.005">
+<failure message="critical-user-journeys.spec.ts:294:9 should perform search quickly on large collections" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:294:9 › Critical User Journeys - Wine Pokédex › Performance and Loading › should perform search quickly on large collections 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Error Handling and Edge Cases › should handle corrupted localStorage gracefully" classname="critical-user-journeys.spec.ts" time="0.007">
+<failure message="critical-user-journeys.spec.ts:316:9 should handle corrupted localStorage gracefully" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:316:9 › Critical User Journeys - Wine Pokédex › Error Handling and Edge Cases › should handle corrupted localStorage gracefully 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Error Handling and Edge Cases › should handle missing wine data gracefully" classname="critical-user-journeys.spec.ts" time="0.002">
+<failure message="critical-user-journeys.spec.ts:328:9 should handle missing wine data gracefully" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:328:9 › Critical User Journeys - Wine Pokédex › Error Handling and Edge Cases › should handle missing wine data gracefully 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Error Handling and Edge Cases › should handle network errors gracefully" classname="critical-user-journeys.spec.ts" time="0.002">
+<failure message="critical-user-journeys.spec.ts:351:9 should handle network errors gracefully" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:351:9 › Critical User Journeys - Wine Pokédex › Error Handling and Edge Cases › should handle network errors gracefully 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Accessibility › should be keyboard navigable" classname="critical-user-journeys.spec.ts" time="0.002">
+<failure message="critical-user-journeys.spec.ts:363:9 should be keyboard navigable" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:363:9 › Critical User Journeys - Wine Pokédex › Accessibility › should be keyboard navigable 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Accessibility › should have proper ARIA labels" classname="critical-user-journeys.spec.ts" time="0.003">
+<failure message="critical-user-journeys.spec.ts:379:9 should have proper ARIA labels" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:379:9 › Critical User Journeys - Wine Pokédex › Accessibility › should have proper ARIA labels 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Accessibility › should support screen readers" classname="critical-user-journeys.spec.ts" time="0.002">
+<failure message="critical-user-journeys.spec.ts:388:9 should support screen readers" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:388:9 › Critical User Journeys - Wine Pokédex › Accessibility › should support screen readers 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Visual and UI Consistency › should display consistent branding and colors" classname="critical-user-journeys.spec.ts" time="0.001">
+<failure message="critical-user-journeys.spec.ts:400:9 should display consistent branding and colors" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:400:9 › Critical User Journeys - Wine Pokédex › Visual and UI Consistency › should display consistent branding and colors 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="Critical User Journeys - Wine Pokédex › Visual and UI Consistency › should handle different screen sizes gracefully" classname="critical-user-journeys.spec.ts" time="0.001">
+<failure message="critical-user-journeys.spec.ts:409:9 should handle different screen sizes gracefully" type="FAILURE">
+<![CDATA[  [chromium] › critical-user-journeys.spec.ts:409:9 › Critical User Journeys - Wine Pokédex › Visual and UI Consistency › should handle different screen sizes gracefully 
+
+    Error: browserType.launch: Executable doesn't exist at /Users/emily-gryfyn/Library/Caches/ms-playwright/chromium-1187/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

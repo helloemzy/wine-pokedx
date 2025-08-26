@@ -1,0 +1,361 @@
+@import "tailwindcss";
+
+:root {
+  /* Pokemon-inspired color palette */
+  --pokedex-red: #dc2626;
+  --pokedex-blue: #1d4ed8;
+  --pokedex-yellow: #facc15;
+  --pokedex-green: #16a34a;
+  --pokedex-light-blue: #38bdf8;
+  --pokedex-dark-blue: #1e40af;
+  --pokedex-gray: #6b7280;
+  --pokedex-dark-gray: #374151;
+  
+  /* Wine-themed colors */
+  --wine-deep-red: #722f37;
+  --wine-burgundy: #800020;
+  --wine-gold: #ffd700;
+  --wine-rose: #f4c2c2;
+  
+  /* Main theme colors */
+  --background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 50%, #38bdf8 100%);
+  --foreground: #ffffff;
+  --card-background: rgba(255, 255, 255, 0.95);
+  --card-border: rgba(255, 255, 255, 0.2);
+  --accent: var(--pokedex-yellow);
+  --accent-foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+/* Pokemon-inspired animations */
+@keyframes pokeball-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes card-flip {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(90deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.pokeball-spin {
+  animation: pokeball-spin 2s linear infinite;
+}
+
+.card-flip {
+  animation: card-flip 0.6s ease-in-out;
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pokedex-yellow);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
+
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+  /* Improve touch targets */
+  button, a, input, select, textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Better text readability on mobile */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Prevent zoom on form inputs */
+  input, textarea, select {
+    font-size: 16px;
+  }
+}
+
+/* PWA and mobile-specific styles */
+@supports (-webkit-touch-callout: none) {
+  /* iOS Safari specific styles */
+  body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  input, textarea {
+    -webkit-user-select: auto;
+    user-select: auto;
+  }
+  
+  /* Safe area handling for iOS */
+  .safe-top {
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  .safe-bottom {
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .h-safe-top {
+    height: constant(safe-area-inset-top);
+    height: env(safe-area-inset-top);
+  }
+  
+  .pb-safe-bottom {
+    padding-bottom: calc(1rem + constant(safe-area-inset-bottom));
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* Android Chrome specific styles */
+@supports (display: -webkit-box) {
+  .android-chrome {
+    /* Handle navigation bar */
+    padding-bottom: env(keyboard-inset-height, 0);
+  }
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Crisp images on retina displays */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Performance optimizations */
+.gpu-accelerated {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.scroll-smooth {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Touch-friendly components */
+.touch-card {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.touch-card:active {
+  transform: scale(0.98);
+  transition: transform 0.1s ease-out;
+}
+
+/* Haptic feedback simulation */
+.haptic-light:active {
+  animation: haptic-pulse 0.1s ease-out;
+}
+
+@keyframes haptic-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+/* Offline indicator */
+.offline-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #f59e0b;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  z-index: 9999;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.offline-indicator.show {
+  transform: translateY(0);
+}
+
+/* Install prompt styles */
+.install-prompt {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  color: white;
+  padding: 1rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+  z-index: 1000;
+}
+
+.install-prompt.show {
+  transform: translateY(0);
+}
+
+/* Loading states for better perceived performance */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Virtual scroll optimizations */
+.virtual-scroll-container {
+  contain: strict;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.virtual-item {
+  contain: layout style paint;
+  will-change: transform;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+    --foreground: #f1f5f9;
+    --card-background: rgba(30, 41, 59, 0.95);
+    --card-border: rgba(148, 163, 184, 0.2);
+  }
+  
+  body {
+    background: var(--background);
+    color: var(--foreground);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .shimmer {
+    animation: none;
+  }
+  
+  .pokeball-spin {
+    animation: none;
+  }
+}
+
+/* Focus styles for keyboard navigation */
+.focus-visible {
+  outline: 2px solid var(--pokedex-yellow);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* Scrollbar styles for mobile */
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thumb-blue-500 {
+  scrollbar-color: #3b82f6 transparent;
+}
+
+/* iOS momentum scrolling */
+.momentum-scroll {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Android overscroll behavior */
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+/* Prevent text selection on interactive elements */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 3D perspective for card flips */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
